@@ -9,7 +9,7 @@ Vancouver has a total of 21 municipalities and I wanted to extract the entire Va
 After extracting the cities with the respective location coordinates, I fed each of the location to the google api parameters in this format https://maps.googleapis.com/maps/api/place/nearbysearch/json? {parameters: location=<latitude and longitude>&radius=<radius to search in meters>&keyword=<business to search>&key=<api_key>} where I specified the parameters as : the extracted location (latitude,longitude), radius= radius of search as 3000m (3km), keyword = business Keywords to search for, key = your respective api from google. I also added a delay of 2 seconds for each request so as not to overload the api
 
 ## Export
-After scraping and extraction. I dropped duplicated, further manipulated and transformed the data into a dataframe that i used to export as csv.
+After scraping and extraction. I dropped duplicates, further manipulated and transformed the data into a dataframe that i used to export as csv.
 
 ## Usages
 This extracted data can be used to further analyze the market to get leads in that area, that is Vancouver Canada and in those specific fields that is Marketing, Web development & SEO.
