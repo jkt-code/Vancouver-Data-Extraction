@@ -3,11 +3,11 @@ This is a notebook displaying data extraction of marketing agencies, web develop
 ### Link to the notebook: https://anaconda.cloud/share/notebooks/5df2ab32-af0f-4835-935c-a2332b37aad3/overview
 
 ## Libraries used
-Python - Scripting
-Pandas - Data tarnsformation, manipulation and exporting
-BeautifulSoup - Webpage(Html) extraction
-Requests - Requests data from source using an api that returns response in json format
-time - time.sleep() to delay the intervals of calling an api for a request
+Python - Scripting \n
+Pandas - Data tarnsformation, manipulation and exporting\n
+BeautifulSoup - Webpage(Html) extraction \n
+Requests - Requests data from source using an api that returns response in json format \n
+time - time.sleep() to delay the intervals of calling an api for a request \n
 
 ## Municipalities Extraction
 Vancouver has a total of 21 municipalities and I wanted to extract the entire Vancouver. So I used https://www.municipality-canada.com/ wbsite to extract all the municipalities and their respective location coodinates so that I can feed them to google api to fetch the respective data. I used https://www.municipality-canada.com/en/regional-district-greater-vancouver.html to extract the municipalities and respective link to further details extraction. The link was in this format https://www.municipality-canada.com/en/city-vancouver.html and I proceeded to use it to extract respective coordinates.
