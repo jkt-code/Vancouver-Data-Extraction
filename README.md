@@ -4,7 +4,7 @@ This is a notebook displaying data extraction of marketing agencies, web develop
 
 ## Libraries used
 #### Python - Scripting 
-#### Pandas - Data tarnsformation, manipulation and exporting
+#### Pandas - Data transformation, manipulation and exporting
 #### BeautifulSoup - Webpage(Html) extraction 
 #### Requests - Requests data from source using an api that returns response in json format 
 #### time - time.sleep() to delay the intervals of calling an api for a request 
