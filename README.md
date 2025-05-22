@@ -12,4 +12,4 @@ After extracting the cities with the respective location coordinates, I fed each
 After scraping and extraction. I dropped duplicated, further manipulated and transformed the data into a dataframe that i used to export as csv.
 
 ## Usages
-This extracted data can be used to further analyze the market to get leads in that area, tha is Vancouver Canada.
+This extracted data can be used to further analyze the market to get leads in that area, that is Vancouver Canada and in those specific fields that is Marketing, Web development & SEO.
